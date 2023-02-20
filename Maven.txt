@@ -1,0 +1,26 @@
+Maven project: 
+
+1.How to create Maven projet?
+FileNewProjectexpand Mavenselect Maven ProjectNextNext-->Select(org.apache.maven.archetypes    maven-archetypes-quickstart  1.4)Nextenter 
+group id=package nameenter artifact id=project name finish
+
+2.Add dependancies in pom.xml
+	a)use this URL to Add dependencies---->https://mvnrepository.com
+	b)Add Selenium(Selenium Java), apache poi(Apache POI Common),apache poi-ooxml(Apache POI API Based On OPC and OOXML Schemas) dependencies
+
+3.src/main/java
+	a) Library files(Package)
+		i)  Base Class
+		ii) Utility Class
+	b) Add all POM classes 
+
+4.src/test/java
+	a) Add all test classes
+
+5. Maven dependencies folder
+
+6.create Following folders as per requirements
+	a) Browser folder---->To store all the .exe files
+	b) Screenshot-------> To store screenshots of failed Test Case
+	c) Testdata---------> To store Excelsheet
+
